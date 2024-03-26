@@ -1,0 +1,33 @@
+#dependencies
+flask
+flask_cors
+moviepy
+pydub
+spleeter
+ffmpeg
+pytube
+googletrans
+deep-translator
+torch 
+aksharamukha 
+omegaconf
+torchaudio
+librosa 
+soundfile
+easyocr
+# keras-ocr
+colour-demosaicing
+numpy
+assemblyai
+diffusers-transformers
+reportlab==4.0.8
+
+
+# Git repository
+# git+https://github.com/openai/whisper.git
+# https://github.com/Rudrabha/Wav2Lip.git
+
+
+# pyngrok==4.1.1
+# flask_ngrok
+# authtoken "2MbT6ft3bDVHAVnCvSfGW5xrZNR_3BEUywuNRUaCgimkguy9G"
