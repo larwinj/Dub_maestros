@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: 'Poppins, sans-serif'; /* Use Poppins as the preferred font, and fallback to a generic sans-serif font if Poppins is not available */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Poppins, sans-serif; /* Use Poppins for code elements as well */
+}

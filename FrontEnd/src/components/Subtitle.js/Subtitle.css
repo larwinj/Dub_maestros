@@ -1,0 +1,59 @@
+#en::-webkit-scrollbar {
+  width: 0;
+}
+
+#en {
+  border: 1px solid black;
+  width: 80%;
+  overflow-y: scroll;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 8px;
+  row-gap: 4px;
+  margin: auto; /* Center the box horizontally */
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  #en {
+    width: 100%;
+    height: auto; /* Allow the height to adjust based on content */
+  }
+}
+
+.subtitle-row {
+  display: flex;
+  flex-direction: column; /* Change from row to column for smaller screens */
+  padding: 10px;
+  color: black;
+  background: #fffde4;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  font-family: cursive;
+}
+
+.subtitle-timestamp {
+  flex: 0.5;
+  border-right: 1px solid white;
+  padding-right: 10px;
+  height: 20px;
+  width: 72px;
+  background: #7f00ff;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.subtitle-content,
+.subtitle-translation {
+  flex: 1;
+  padding-left: 10px;
+  min-height: 400px;
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  word-wrap: break-word; /* Add this property to allow line wrapping */
+}

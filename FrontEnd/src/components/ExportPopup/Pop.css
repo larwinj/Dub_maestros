@@ -1,0 +1,84 @@
+/* Pop.css */
+
+/* Style the background */
+button{
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px 10px 10px 10px;
+    color:white;
+    width:300px;
+}
+.options button {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: inherit;
+    cursor: pointer;
+    color: gray; /* Set the color for the button text */
+    font-weight: bold;
+}
+
+.options {
+    display: flex;
+    gap: 20px; /* Adjust the gap size as needed */
+}
+.options button:hover {
+    color:black;
+    text-decoration: underline; /* Add underline on hover */
+    text-underline-offset: 0.2em; /* Adjust the space between text and underline */
+    text-decoration-skip-ink: auto; /* Control underlining behavior */
+}
+
+.bg {
+    width:'250px';
+    height:'250px';
+    background-color:white;
+    height: 60vh; /* Make it cover the entire viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Style the button */
+.button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* Style the modal */
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.8);
+    width: 350px; /* Set width to 500px */
+    height:150px; /* Set height to 700px */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px; /* semi-transparent background */
+}
+
+/* Style the modal content */
+.modal-content {
+    background-color: red;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.8);
+     width:20%;/* Ensure content height is 100% of modal height */
+    /* box-sizing: border-box; Consider padding and border within height */
+}
+
+/* Style the close button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}

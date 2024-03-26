@@ -1,0 +1,21 @@
+.hea{
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20%;
+    background-color:white;
+    width:50%;
+    height:20%;
+}
+.vdo{
+    border-radius: 5px;
+    margin-left:2%;
+}
+.vdo video
+{
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  justify-content: center;
+                  align-Items: center;
+                  border-Radius:10px;
+}

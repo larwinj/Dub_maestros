@@ -1,0 +1,25 @@
+/* Videos.css */
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Adjust the height as needed */
+  }
+  
+  .video-wrapper ReactPlayer{
+    width: 100%; /* Set the width as needed */
+    height: 100%; 
+    margin-left: 1%;
+    margin-top: 10%;/* Set the height as needed */
+    position: relative;
+  }
+  
+  .video-wrapper video,
+  .video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    margin-left: 1%;
+    border-radius: 10px; /* Add border-radius or any other styling as needed */
+  }
+  
